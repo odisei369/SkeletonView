@@ -22,7 +22,7 @@ extension UITableView {
 extension UITableViewCell {
 
     override var subviewsToSkeleton: [UIView] {
-        return contentView.subviews
+        return subviews
     }
 }
 
@@ -36,7 +36,7 @@ extension UICollectionView {
 extension UICollectionViewCell {
 
     override var subviewsToSkeleton: [UIView] {
-        return contentView.subviews
+        return subviews
     }
 }
 
